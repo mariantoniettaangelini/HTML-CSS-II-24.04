@@ -1,0 +1,133 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*-----------------HEADER-----------------*/
+header {
+    display: flex;
+    max-width: 576px;
+}
+    
+#divMenu {
+    background-color: rgba(254,247,226,255);
+}
+
+ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: 1em;
+    align-items: center;
+  }
+
+ul li {
+    margin: 0.1em;
+    color: rgba(120,42,12,255)
+  }
+
+  .menuButton {
+    border-radius: 1.5em;
+    background-color: rgba(255, 223, 127, 255);
+    color: rgba(120, 42, 12, 255);
+    height: 3em;
+    width: 7em;
+    margin-bottom: 1em;
+    border: transparent;
+  }
+
+  #imgButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+  }
+
+  #bee {
+    width: 40px;
+  }
+
+/*-----------------MAIN-----------------*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 576px;
+}
+
+h1 {
+    color: rgba(120,42,12,255);
+    font-size: 2.3em;
+}
+#cards {
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    background-color: rgba(254,247,226,255);
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0.4em;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seven {
+    display: flex;
+    align-items: self-end;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin-bottom: 0;
+    color: rgba(120,42,12,255)
+}
+
+p {
+    margin-top: 0;
+    color: rgba(120,42,12,255);
+}
+
+#addToCart {
+    margin-top: 1em;
+    border-radius: 1.5em;
+    background-color: rgba(255, 223, 127, 255);
+    color: rgba(120, 42, 12, 255);
+    width: 10em;
+    height: 3em;
+    margin-bottom: 1em;
+    border: transparent;
+}
+
+#cartButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: rgba(120, 42, 12, 255);
+}
+
+#news {
+    max-width: 576px;
+    border-radius: 1.5em;
+    background-color: rgba(255, 223, 127, 255);
+    color: rgba(120, 42, 12, 255);
+    overflow: hidden;
+}
+
+#newsP {
+    margin: 1em;
+}
